@@ -1,0 +1,2 @@
+*{padding:0;margin:0;box-sizing:border-box}.headerLogo{width:300px;height:auto}.navbar{display:flex;justify-content:space-evenly;align-items:center;list-style-type:none}a{text-decoration:none;color:#000}@media screen and (max-width:450px){.navbar{flex-direction:column}.item1{order:1}.item2{order:2}.item3{order:3}.item4{order:4}.item5{order:5}}
+/*# sourceMappingURL=main.621041bb.chunk.css.map */

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/puddles/static/css/main.621041bb.chunk.css",
+    "main.js": "/puddles/static/js/main.ff37bf38.chunk.js",
+    "main.js.map": "/puddles/static/js/main.ff37bf38.chunk.js.map",
+    "runtime-main.js": "/puddles/static/js/runtime-main.2674c098.js",
+    "runtime-main.js.map": "/puddles/static/js/runtime-main.2674c098.js.map",
+    "static/js/2.abe8c0ce.chunk.js": "/puddles/static/js/2.abe8c0ce.chunk.js",
+    "static/js/2.abe8c0ce.chunk.js.map": "/puddles/static/js/2.abe8c0ce.chunk.js.map",
+    "index.html": "/puddles/index.html",
+    "precache-manifest.9a58ce90cf34f584888d82e48fe0ef42.js": "/puddles/precache-manifest.9a58ce90cf34f584888d82e48fe0ef42.js",
+    "service-worker.js": "/puddles/service-worker.js",
+    "static/css/main.621041bb.chunk.css.map": "/puddles/static/css/main.621041bb.chunk.css.map",
+    "static/js/2.abe8c0ce.chunk.js.LICENSE": "/puddles/static/js/2.abe8c0ce.chunk.js.LICENSE",
+    "static/media/puddleslogo.svg": "/puddles/static/media/puddleslogo.4451cd52.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2674c098.js",
+    "static/js/2.abe8c0ce.chunk.js",
+    "static/css/main.621041bb.chunk.css",
+    "static/js/main.ff37bf38.chunk.js"
+  ]
+}
