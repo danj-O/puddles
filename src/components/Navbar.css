@@ -8,9 +8,79 @@
     align-items: center;
     list-style-type: none;
 }
-a {
-    text-decoration: none;
-    color: black;
+.navbar-logo {
+    background: rgb(192, 247, 255);
+    border-radius: 50%;
+    border: 4px solid rgb(55, 180, 230);
+    
+}
+.navbar-item {
+    position: relative;
+    top: 50px;
+    width: 120px;
+    height: 200px
+}
+.navbar-item a {
+    position: absolute;
+    /* height: auto; */
+    top: 0px;
+    /* top: 0px; */
+    z-index: 1;
+}
+.cloud {
+    width: 100%;
+    animation-name: cloud;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+@keyframes cloud {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-5deg);
+    }
+    50% {
+        transform: rotate(0deg);
+
+    }
+    75% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+.drops-container {
+    position: relative;
+    display: flex;
+    top: 50px;
+    /* bottom: 0px; */
+    left: 10px;
+    transition: all ease .5s;
+}
+.drop-container {
+    position: absolute;
+    width: 10px;
+
+}
+.drop {
+    width: 100%;
+}
+.d2 {
+    left: 25px;
+    top: -15px;
+}
+.d3 {
+    left: 50px;
+    top: -8px;
+}
+.d4 {
+    left: 75px;
+}
+.navbar-item:hover .drops-container {
+    top: 100px;
 }
 @media screen and (max-width: 450px) {
     .navbar {

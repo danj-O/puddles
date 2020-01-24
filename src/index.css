@@ -3,3 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+html,
+body {
+    background: rgb(102, 192, 228);
+}

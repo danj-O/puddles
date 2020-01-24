@@ -20,7 +20,6 @@ function App() {
         <Route path='/listen' component={Listen} />
         <Route path='/watch' component={Watch} />
         <Route path='/contact' component={Contact} />
-
       </div>
     </Router>
   );
