@@ -1,3 +1,9 @@
 .App {
-  background: rgb(52, 100, 119);
+  /* background: rgb(89, 174, 207); */
+}
+.component {
+  height: 60vh;
+  margin: 10vh 10vw;
+  /* background: rgb(102, 192, 228); */
+  
 }

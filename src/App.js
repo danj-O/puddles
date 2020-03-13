@@ -8,6 +8,7 @@ import Listen from './components/Listen.component'
 import Watch from './components/Watch.component'
 import Contact from './components/Contact.component'
 import Home from './components/Home.component'
+import Footer from './components/Footer.component'
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
         <Route path='/listen' component={Listen} />
         <Route path='/watch' component={Watch} />
         <Route path='/contact' component={Contact} />
+        <br/>
+        <Footer />
       </div>
     </Router>
   );

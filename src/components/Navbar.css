@@ -1,6 +1,25 @@
 .headerLogo {
-    width: 300px;
+    width: 250px;
     height: auto;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes logo {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.05);
+
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+.headerLogo:hover {
+    animation: swing 1s ;
 }
 .navbar {
     display: flex;
@@ -9,16 +28,16 @@
     list-style-type: none;
 }
 .navbar-logo {
-    background: rgb(192, 247, 255);
+    /* background: rgb(192, 247, 255);
     border-radius: 50%;
-    border: 4px solid rgb(55, 180, 230);
+    border: 4px solid rgb(55, 180, 230); */
     
 }
 .navbar-item {
     position: relative;
-    top: 50px;
-    width: 120px;
-    height: 200px
+    top: 10px;
+    width: 175px;
+    height: 150px;
 }
 .navbar-item a {
     position: absolute;
@@ -39,14 +58,14 @@
         transform: rotate(0deg);
     }
     25% {
-        transform: rotate(-5deg);
+        transform: rotate(-3deg);
     }
-    50% {
+    /* 50% {
         transform: rotate(0deg);
 
-    }
+    } */
     75% {
-        transform: rotate(5deg);
+        transform: rotate(3deg);
     }
     100% {
         transform: rotate(0deg);
@@ -55,32 +74,32 @@
 .drops-container {
     position: relative;
     display: flex;
-    top: 50px;
+    top: 45%;
     /* bottom: 0px; */
-    left: 10px;
+    left: 15%;
     transition: all ease .5s;
 }
 .drop-container {
     position: absolute;
-    width: 10px;
+    width: 10%;
 
 }
 .drop {
     width: 100%;
 }
 .d2 {
-    left: 25px;
+    left: 20%;
     top: -15px;
 }
 .d3 {
-    left: 50px;
+    left: 37%;
     top: -8px;
 }
 .d4 {
-    left: 75px;
+    left: 55%;
 }
 .navbar-item:hover .drops-container {
-    top: 100px;
+    top: 135px;
 }
 @media screen and (max-width: 450px) {
     .navbar {

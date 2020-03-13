@@ -5,5 +5,11 @@
 }
 html,
 body {
-    background: rgb(102, 192, 228);
+    /* background: rgb(101,188,223);
+    background: linear-gradient(0deg, rgba(101,188,223,1) 69%, rgba(255,255,255,1) 100%); */
+    background: url('./components/images/PuddlesBG.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }

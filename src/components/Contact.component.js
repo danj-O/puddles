@@ -2,6 +2,8 @@ import React from 'react';
 
 export default function Contact() {
     return (
-        <h1>contact</h1>
+        <div className='component animated fadeIn'>
+            <h1>Contact</h1>
+        </div>
     )
 }
