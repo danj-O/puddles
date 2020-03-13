@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/puddles/static/css/main.621041bb.chunk.css",
-    "main.js": "/puddles/static/js/main.ff37bf38.chunk.js",
-    "main.js.map": "/puddles/static/js/main.ff37bf38.chunk.js.map",
+    "main.css": "/puddles/static/css/main.c6f51ee7.chunk.css",
+    "main.js": "/puddles/static/js/main.a63c3eaa.chunk.js",
+    "main.js.map": "/puddles/static/js/main.a63c3eaa.chunk.js.map",
     "runtime-main.js": "/puddles/static/js/runtime-main.2674c098.js",
     "runtime-main.js.map": "/puddles/static/js/runtime-main.2674c098.js.map",
-    "static/js/2.abe8c0ce.chunk.js": "/puddles/static/js/2.abe8c0ce.chunk.js",
-    "static/js/2.abe8c0ce.chunk.js.map": "/puddles/static/js/2.abe8c0ce.chunk.js.map",
+    "static/js/2.6cf8581e.chunk.js": "/puddles/static/js/2.6cf8581e.chunk.js",
+    "static/js/2.6cf8581e.chunk.js.map": "/puddles/static/js/2.6cf8581e.chunk.js.map",
     "index.html": "/puddles/index.html",
-    "precache-manifest.9a58ce90cf34f584888d82e48fe0ef42.js": "/puddles/precache-manifest.9a58ce90cf34f584888d82e48fe0ef42.js",
+    "precache-manifest.a44c608ce6386dff9fd50b3acd48d50c.js": "/puddles/precache-manifest.a44c608ce6386dff9fd50b3acd48d50c.js",
     "service-worker.js": "/puddles/service-worker.js",
-    "static/css/main.621041bb.chunk.css.map": "/puddles/static/css/main.621041bb.chunk.css.map",
-    "static/js/2.abe8c0ce.chunk.js.LICENSE": "/puddles/static/js/2.abe8c0ce.chunk.js.LICENSE",
-    "static/media/puddleslogo.svg": "/puddles/static/media/puddleslogo.4451cd52.svg"
+    "static/css/main.c6f51ee7.chunk.css.map": "/puddles/static/css/main.c6f51ee7.chunk.css.map",
+    "static/js/2.6cf8581e.chunk.js.LICENSE": "/puddles/static/js/2.6cf8581e.chunk.js.LICENSE",
+    "static/media/index.css": "/puddles/static/media/PuddlesBG.d91d345d.png",
+    "static/media/about.png": "/puddles/static/media/about.7c0f5691.png",
+    "static/media/contact.png": "/puddles/static/media/contact.190d65db.png",
+    "static/media/drop.png": "/puddles/static/media/drop.b2d18a07.png",
+    "static/media/listen.png": "/puddles/static/media/listen.5ba41f05.png",
+    "static/media/puddleslogo.svg": "/puddles/static/media/puddleslogo.4451cd52.svg",
+    "static/media/watch.png": "/puddles/static/media/watch.695837b7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2674c098.js",
-    "static/js/2.abe8c0ce.chunk.js",
-    "static/css/main.621041bb.chunk.css",
-    "static/js/main.ff37bf38.chunk.js"
+    "static/js/2.6cf8581e.chunk.js",
+    "static/css/main.c6f51ee7.chunk.css",
+    "static/js/main.a63c3eaa.chunk.js"
   ]
 }
